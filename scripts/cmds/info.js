@@ -17,9 +17,9 @@ module.exports = {
 
         onStart: async function ({ message }) {
                 try {
-                        const botName = "𝗦𝗶𝗮𝗺 𝗕𝗵𝗮𝘂 🔥";
-                        const botPrefix = "^";
-                        const authorName = "𝗠𝘂𝗲𝗶𝗱 𝗠𝘂𝗿𝘀𝗮𝗹𝗶𝗻 𝗥𝗶𝗳𝗮𝘁";
+                        const botName = "BhauXBOT";
+                        const botPrefix = ".";
+                        const authorName = "SiamBhau";
                         const authorFB = "https://facebook.com/SiamBhau69";
                         const authorTelegram = "t.me/SiamBhau";
                         const status = "✅ 𝘈𝘊𝘛𝘐𝘝𝘌 & 𝘙𝘌𝘚𝘗𝘖𝘕𝘋𝘐𝘕𝘎";
