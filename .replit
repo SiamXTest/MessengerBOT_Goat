@@ -1,0 +1,38 @@
+run = "cowsay Configure me!"
+entrypoint = "README.md"
+modules = ["nodejs-20g", "web"]
+
+[nix]
+channel = "stable-25_05"
+packages = ["cowsay", "libuuid", "unzip", "zip"]
+
+[agent]
+expertMode = true
+
+[workflows]
+runButton = "Projecth"
+
+[[workflows.workflow]]
+name = "Projecth"
+mode = "parallelb"
+author = "agenth"
+
+[[workflows.workflow.tasks]]
+task = "workflow.brun"
+args = "Start Bot"
+
+[[workflows.workflow]]
+name = "Start Botg"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "consoleb"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node index.js"
+waitForPort = 3001
+
+[[ports]]
+localPort = 3001
+externalPort = 3001
