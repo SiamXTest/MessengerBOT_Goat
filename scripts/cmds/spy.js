@@ -83,7 +83,7 @@ module.exports = {
 ├‣ 𝙼𝚘𝚗𝚎𝚢: $${formatMoney(money)}
 ├‣ 𝚁𝚊𝚗𝚔: #${rank}/${allUser.length}
 ├‣ 𝙼𝚘𝚗𝚎𝚢 𝚁𝚊𝚗𝚔: #${moneyRank}/${allUser.length}
-★ Owner : Mueid Mursalin Rifat`;
+★ Owner : Siam Bhau`;
 
     // Reply with the user information and avatar image
     message.reply({
