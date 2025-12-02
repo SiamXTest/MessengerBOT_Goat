@@ -11,7 +11,7 @@ module.exports = {
     version: "1.0.0",
     author: "Siam Bhau",
     countDown: 5,
-    role: 1,
+    role: 0,
     shortDescription: "এটা দিয়ে বুলি দেওয়া হয়।",
     longDescription: "Chumt",
     category: "fun",
